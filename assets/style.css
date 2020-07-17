@@ -1,0 +1,46 @@
+:root{
+  --yellow: #ffc600;
+  --black: #272727;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 0.625rem;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 21.25rem, auto;
+    min-height: calc(100vh - 6.25rem);
+    margin: 3.125rem;
+    background-attachment: fixed;
+    letter-spacing: -0.0625rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 0.3125rem 0;
+}
+
+.item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    font-size: 2.1875rem;
+    background-color: var(--yellow);
+}
+
+.item p {
+   margin: 0 0 0.3125rem 0;
+}
